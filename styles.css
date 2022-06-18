@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+  background: grey;
+}
+
+body{ 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#logo {
+  text-decoration: none;
+  text-decoration: inherit;
+  color: inherit;
+  user-select: none;
+}
+
+#loginImage {
+  width: 32px;
+  border-radius: 100%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  user-select: none;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(255,255,255);
+}
+
+#main-index{
+  user-select: none;
+  height: 100%;
+}
+
+#noResultImage{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.hero-image {
+  height: 50rem;
+  object-fit: cover;
+}
